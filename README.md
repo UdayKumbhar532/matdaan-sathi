@@ -1,7 +1,6 @@
 # Matdaan Sathi (Election Assistant)
 
 ![Matdaan Sathi](https://img.shields.io/badge/Status-Active-success)
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 Matdaan Sathi is a comprehensive, interactive, and beautifully designed web application built to empower Indian citizens with essential knowledge about the electoral process. Recognizing that democracy thrives on informed participation, this platform bridges the gap between complex electoral rules and the everyday voter.
 
@@ -52,7 +51,3 @@ This repository includes a `Dockerfile` and `nginx.conf` pre-configured to serve
    ```bash
    gcloud run deploy matdaan-sathi --source . --region us-central1 --allow-unauthenticated
    ```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
