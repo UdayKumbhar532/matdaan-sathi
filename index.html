@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matdaan Sathi | Indian Election Assistant</title>
+    <meta name="description" content="Learn about the Indian election process, voter registration, and voting steps through an interactive assistant, flashcards, quizzes, and AI chatbot.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <i data-lucide="vote"></i>
+                <span>Matdaan<span>Sathi</span></span>
+            </div>
+            <nav class="nav-menu">
+                <button class="nav-item active" data-section="assistant" id="nav-assistant">
+                    <i data-lucide="layout-dashboard"></i>
+                    <span>Assistant</span>
+                </button>
+                <button class="nav-item" data-section="flashcards" id="nav-flashcards">
+                    <i data-lucide="layers"></i>
+                    <span>Flashcards</span>
+                </button>
+                <button class="nav-item" data-section="quiz" id="nav-quiz">
+                    <i data-lucide="zap"></i>
+                    <span>Quiz Arena</span>
+                </button>
+                <button class="nav-item" data-section="info" id="nav-info">
+                    <i data-lucide="landmark"></i>
+                    <span>About Elections</span>
+                </button>
+                <button class="nav-item" data-section="ask" id="nav-ask">
+                    <i data-lucide="bot"></i>
+                    <span>AI Election Bot</span>
+                </button>
+            </nav>
+            <div class="sidebar-footer">
+                <p>© 2026 Matdaan Sathi</p>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="top-bar">
+                <h1 id="section-title">Election Assistant</h1>
+                <div class="user-profile">
+                    <div class="badge" id="user-badge">Voter Novice</div>
+                </div>
+            </header>
+
+            <section id="content-area" class="content-area">
+                <!-- Content injected by script.js -->
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        if (window.lucide) lucide.createIcons();
+    </script>
+</body>
+</html>
